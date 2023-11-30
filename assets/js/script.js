@@ -4,13 +4,9 @@
 // information for travellers
 alert("hi, i'm here just to help and let you know some infos:   1 - you're paying 0.21€ each km.    2 - 20% discount is applied on teen below 18 years old  3 - 40% discount is applied on elderly over 65 years old.");
 
-// checking for discount rights
-let y;
-let n;
-let p_price;
-let tot_price;
-let discount;
-let n_coach;
+//declaring global variables
+let y, n, p_price, tot_price, discount, n_coach;
+
 
 //getting button "generate"
 const generateButton = document.querySelector('p.p_bottom');
